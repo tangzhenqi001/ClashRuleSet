@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,stackoverflow.com
   - DOMAIN-SUFFIX,registry.gitlab.com
   - DOMAIN-SUFFIX,mcr.microsoft.com
+  - 169.254.169.254:80
 
   # Hugging Face
   - DOMAIN-SUFFIX,huggingface.co
