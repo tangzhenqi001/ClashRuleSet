@@ -34,7 +34,7 @@ payload:
 
   # AI Tools (LM Studio mentioned in comment, assuming related)
   - PROCESS-NAME,LM Studio
-  - DOMAIN-SUFFIX,lmsudio.ai # 注意: 这里可能是 lmstudio.ai 的拼写错误，已按原文保留
+  - DOMAIN-SUFFIX,lmstudio.ai 
 
   # Grok
   - PROCESS-NAME,grok
@@ -65,15 +65,13 @@ payload:
   - DOMAIN-SUFFIX,designerapp.officeapps.live.com
   - DOMAIN-SUFFIX,cdn.designerapp.osi.office.net
   - DOMAIN-SUFFIX,live.com
-  # - DOMAIN-SUFFIX,azureedge.net # 重复，已注释掉
   - DOMAIN-SUFFIX,virtualearth.net
   - DOMAIN-SUFFIX,windows.net
-  - DOMAIN-SUFFIX,onenote # 注意: 这是一个关键词，不是后缀，但原文是SUFFIX，已按原文保留
+  - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,hexun.com
   - DOMAIN-SUFFIX,dict.bing.com.cn
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,variflight.com
-  # - DOMAIN-SUFFIX,bing.net # 重复，已注释掉
   - DOMAIN-SUFFIX,msftoffers.com
   - DOMAIN-SUFFIX,chinacloudapp.cn
   - DOMAIN-SUFFIX,cbsnews.com
@@ -126,7 +124,6 @@ payload:
   - DOMAIN-SUFFIX,akamproxysc.staging-bing-int.com
   - DOMAIN-SUFFIX,akamproxywest.staging-bing-int.com
   - DOMAIN-SUFFIX,cjfdbemmaeeohgibnhdhlakiahifjjcf
-  # - DOMAIN-SUFFIX,ewlmaakam.staging-bing-int.com # 重复，已注释掉
   - DOMAIN-SUFFIX,bngpiglbalmenaabohcooocpnljgfemj
   - DOMAIN-SUFFIX,rwww.bing.com
 
@@ -175,7 +172,6 @@ payload:
   - DOMAIN-SUFFIX,cache.pack.google.com
   - DOMAIN-SUFFIX,clickserve.dartsearch.net
   - DOMAIN-SUFFIX,crl.pki.goog
-  # - DOMAIN-SUFFIX,dl.google.com # 重复，已注释掉
   - DOMAIN-SUFFIX,dl.l.google.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,gtm.oasisfeng.com
@@ -190,6 +186,7 @@ payload:
   - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+  
   # Google IPs (Often associated with Google services)
   - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
@@ -263,6 +260,7 @@ payload:
   - IP-CIDR6,2800:3f0::/32,no-resolve
   - IP-CIDR6,2a00:1450::/32,no-resolve
   - IP-CIDR6,2c0f:fb50::/32,no-resolve
+  
   # Google IPs (China specific ranges)
   - IP-CIDR,120.232.181.162/32,no-resolve
   - IP-CIDR,120.241.147.226/32,no-resolve
@@ -293,6 +291,7 @@ payload:
   - DOMAIN,alt7-mtalk.google.com # 重复，但来源不同，保留
   - DOMAIN,alt8-mtalk.google.com # 重复，但来源不同，保留
   - DOMAIN,mtalk.google.com # 重复，但来源不同，保留
+  
   # Google FCM IPs
   - IP-CIDR,64.233.177.188/32,no-resolve
   - IP-CIDR,64.233.186.188/32,no-resolve
