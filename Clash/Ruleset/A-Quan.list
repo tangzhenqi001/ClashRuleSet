@@ -1,4 +1,3 @@
-user-agent, *iphoneX*, direct
-user-agent, *Mozilla/5.0 (iPhone*, direct
-user-agent, *iOS/6.3.1*, direct
-user-agent, *%E5%BC%80%E4%BA%91%E4%BD%93%E8%82%B2/631*, direct
+user-agent, iphoneX, direct
+user-agent, iOS/6.3.1 (iPhone; iOS 18.5; Scale/3.00), direct
+user-agent, Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148, direct
