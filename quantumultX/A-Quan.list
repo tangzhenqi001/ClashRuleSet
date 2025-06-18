@@ -1,3 +1,3 @@
-user-agent, iphoneX, direct
-user-agent, iOS/6.3.1 (iPhone; iOS 18.5; Scale/3.00), direct
-user-agent, Mozilla/5.0 (iPhone*, direct
+USER-AGENT,*iphone*,DIRECT
+USER-AGENT,*iOS/6.3.1*,DIRECT
+USER-AGENT,*iPhone OS 18_5*,DIRECT
